@@ -1,15 +1,5 @@
-<html>
-<head>
-  <title>VDSCLI - VMware Distributed Switch CLI</title>
-</head>
-
-<body>
-<h1>VDSCLI - VMware Distributed Switch CLI</h1>
-
+VDSCLI - VMware Distributed Switch CLI
+======================================
 vdscli.pl is single perl script leveraging VMware Perl SDK to emulate following CLI commands
-<ul>
-<li> show mac-address-table
-<li> show interface status
-</ul>
-</body>
-</html>  
+- show mac-address-table
+- show interface status
