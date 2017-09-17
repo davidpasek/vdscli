@@ -1,3 +1,7 @@
 #!/bin/sh
 
-./vdscli.pl --server=vc01.home.uw.cz --username readonly --password readonly --cmd show-port-status
+# set env variables
+. ./sh-wrapper-env.sh
+
+./vdscli.pl --server=$VDSCLI_VSPHERE_VCENTER --username $VDSCLI_VSPHERE_USERNAME --password $VDSCLI_VSPHERE_PASSWORD --cmd show-port-status
+
