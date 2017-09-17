@@ -15,10 +15,12 @@ There are primerly two reasons why.
 Before you can use the VDSCLI, you will need to build linux operating system with VMware vCLI. To do so, you need to manually download the vSphere SDK for Perl from VMware's website (which you must register).
 
 * Download vSphere SDK for Perl (which includes vCLI) 6.5 from: https://my.vmware.com/group/vmware/details?downloadGroup=VS-PERL-SDK65&productId=614
-* Downlod vdscli.pl from: https://github.com/davidpasek/vdscli/blob/master/vdscli.pl
-* Download supporting shell wraper for show mac-address-table from: https://github.com/davidpasek/vdscli/blob/master/show-mac-address-table.sh
+* Download vdscli.pl from: https://github.com/davidpasek/vdscli/blob/master/vdscli.pl
+* Download supporting shell wraper variables from: https://github.com/davidpasek/vdscli/blob/master/sh-wrapper-env.sh
+* Download supporting shell wraper for show mac address table from: https://github.com/davidpasek/vdscli/blob/master/show-mac-address-table.sh
 * Download supporting shell wraper for show interface status from: https://github.com/davidpasek/vdscli/blob/master/show-interface-status.sh
-* Edit shell wrappers with your specific vCenter hostname and credentials
+* Edit shell wrapper variables file (sh-wrapper-env.sh) with your specific vCenter hostname and credentials
+* Now you can run shell wraper script show-mac-address-table.sh or show-interface-status.sh 
 
 ## Contact
 
