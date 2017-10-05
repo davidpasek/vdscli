@@ -1,8 +1,11 @@
 # VDSCLI - VMware Distributed Switch CLI
 
-vdscli.pl is single perl script leveraging VMware Perl SDK to emulate following CLI commands
+vdscli.pl is single Perl script leveraging VMware Perl SDK to emulate network switch common CLI commands like
 * show mac-address-table
-* show interface status
+* show interface
+* etc.
+
+vdscli-ishell.py is a single Python script leveraging Python module iShell to emulate INTERACTIVE CLI with context help
 
 ## Why
 
@@ -39,7 +42,7 @@ Here is the list of current feature requests
   - command | more - Paginate output
   - command | grep - Show only text that matches a pattern
 
-To submit feature request contact me over a twitter @david_pasek or e-mail david.pasek (at) gmail.com
+To submit other feature request contact me over a twitter @david_pasek or e-mail david.pasek (at) gmail.com
 
 ## Other resources
 
