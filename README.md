@@ -22,6 +22,30 @@ Before you can use the VDSCLI, you will need to build linux operating system wit
 * Edit shell wrapper variables file (sh-wrapper-env.sh) with your specific vCenter hostname and credentials
 * Now you can run shell wraper script show-mac-address-table.sh or show-interface-status.sh 
 
+## Features
+
+Here is the list of already implemented features
+* show commands 
+** show interface
+** show mac-address-table
+
+## Feature Requests
+
+Here is the list of current feature requests
+* additional show commands
+** show interface port <DVS-port> ... display details of particular DVS port (input statistics, output statistics, rate info)
+** show virtual-machine ... display virtual machine names and DVS ports where VM is connected
+* formating and filtering commands output 
+** more - Paginate output
+** grep - Show only text that matches a pattern
+
+To submit feature request contact me over a twitter @david_pasek or e-mail david.pasek (at) gmail.com
+
+## Other resources
+
+* [CLI for VMware Virtual Distributed Switch - projet overview](http://blog.igics.com/2017/06/cli-for-vmware-virtual-distributed.html)
+* [CLI for VMware Virtual Distributed Switch - implementation procedure](http://blog.igics.com/2017/09/cli-for-vmware-virtual-distributed.html)
+
 ## Contact
 
-If you want contact me use twitter handle @david_pasek to do so.
+If you want contact me use twitter handle @david_pasek or e-mail david.pasek (at) gmail.com
