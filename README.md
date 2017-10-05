@@ -26,18 +26,18 @@ Before you can use the VDSCLI, you will need to build linux operating system wit
 
 Here is the list of already implemented features
 * show commands 
-** show interface
-** show mac-address-table
+  ** show interface
+  ** show mac-address-table
 
 ## Feature Requests
 
 Here is the list of current feature requests
 * additional show commands
-** show interface port <DVS-port> ... display details of particular DVS port (input statistics, output statistics, rate info)
-** show virtual-machine ... display virtual machine names and DVS ports where VM is connected
+  ** show interface port <DVS-port> ... display details of particular DVS port (input statistics, output statistics, rate info)
+  ** show virtual-machine ... display virtual machine names and DVS ports where VM is connected
 * formating and filtering commands output 
-** more - Paginate output
-** grep - Show only text that matches a pattern
+  ** more - Paginate output
+  ** grep - Show only text that matches a pattern
 
 To submit feature request contact me over a twitter @david_pasek or e-mail david.pasek (at) gmail.com
 
