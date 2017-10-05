@@ -26,8 +26,8 @@ Before you can use the VDSCLI, you will need to build linux operating system wit
 
 Here is the list of already implemented features
 * show commands 
-  show interface
-  show mac-address-table
+  - show interface
+  - show mac-address-table
 
 ## Feature Requests
 
